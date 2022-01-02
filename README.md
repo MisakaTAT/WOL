@@ -1,8 +1,16 @@
 # WOL
 一个简单的 Wake On Lan 唤醒程序
 
+## 配置
+```yaml
+port: 8080
+nic: "eno1"     # 指定设备的网卡（一台设备多网卡的情况）
+url: "/powerOn" # 如果是暴露在公网请设置复杂的 url 值
+macAddress: "14-C9-F1-0D-FC-36" # 需要唤醒设备的 MAC 地址
+```
+
 ## 绑定 IOS 快捷指令
-![image](https://mikuac.com/images/github_wol.jpg)
+![image](https://mikuac.com/images/github_wol_preview.jpg)
 
 ## 交叉编译
 
