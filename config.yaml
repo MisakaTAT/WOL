@@ -1,0 +1,4 @@
+port: 8080
+nic: "eno1"    # 指定设备的网卡（一台设备多网卡的情况）
+url: "/powerOn" # 如果是暴露在公网请设置复杂的 url 值
+macAddress: "14-C9-F1-0D-FC-36" # 需要唤醒设备的 MAC 地址
